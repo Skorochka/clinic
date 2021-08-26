@@ -1,3 +1,6 @@
 // импорт базовых стилей
 @import './base/common';
 @import './base/conteiner';
+
+// ипорт стилей для отдельных секций
+@import './layouts/header';
