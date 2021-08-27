@@ -10,16 +10,13 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.25;
-  background-color: var(--light-accent);
-  color: var(--main-text-color);
 
   @media screen and (min-width: 1280px) {
     font-size: 18px;
     line-height: 1.22;
-    background-color: var(--main-bg-color);
   }
 }
 
@@ -36,12 +33,6 @@ p {
 .link {
   text-decoration: none;
   color: inherit;
-  transition: color var(--duration) var(--cubic);
-}
-
-.link:hover,
-.link:focus {
-  color: var(--accent-text-color);
 }
 
 .list {

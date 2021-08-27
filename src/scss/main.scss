@@ -4,3 +4,6 @@
 
 // ипорт стилей для отдельных секций
 @import './layouts/header';
+
+// подключает root
+@import './utils/variables'
