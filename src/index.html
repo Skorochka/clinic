@@ -11,19 +11,13 @@
         crossorigin="anonymous" />
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="conteiner conteiner-header">
             <nav class="navigation">
+                <a class="link navigation--logo" href="">
+                    <img class="img navigation__img" src="./images/logo/logo.svg" alt="logo" width="81" height="54">
+                </a>
                 <ul class="list navigation">
-                    <li class="item navigation--item">
-                        <a class="link navigation--logo" href="">
-                            <img class="img" src="./images/logo/logo.svg" alt="logo" width="81" height="54">
-                            <img class="img" src="./images/logo/litterM.svg" alt="">
-                            <img class="img" src="./images/logo/litterE.svg" alt="">
-                            <img class="img" src="./images/logo/litterD.svg" alt="">
-                            <img class="img" src="./images/logo/litterI.svg" alt="">
-                        </a>
-                    </li>
                     <li class="item navigation--item"><a class="link" href="tel:+71234567890">+7 (123) 456 78 90</a></li>
                     <li class="item navigation--item"><a class="link" href="">Наши салоны</a></li>
                     <li class="item navigation--item"><a class="link" href="">Версия для слабовидящих</a></li>
@@ -32,7 +26,7 @@
                 <ul class="list social-list">
                     <li class="item social-list__item">
                         <a class="link social-list--link" href="">
-                            <svg class="icon">
+                            <svg width="50" height="50" class="icon">
                                 <use href="./images/sprite.svg#icon-vk"></use>
                             </svg>
                         </a>
@@ -40,7 +34,7 @@
                     </li>
                     <li class="item social-list__item">
                         <a class="link social-list--link" href="">
-                            <svg class="icon">
+                            <svg width="50" height="50" class="icon">
                                 <use href="./images/sprite.svg#icon-youtube"></use>
                             </svg>
                         </a>
@@ -48,7 +42,7 @@
                     </li>
                     <li class="item social-list__item">
                         <a class="link social-list--link" href="">
-                            <svg class="icon">
+                            <svg width="50" height="50" class="icon">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
@@ -56,7 +50,7 @@
                     </li>
                     <li class="item social-list__item">
                         <a class="link social-list--link" href="">
-                            <svg class="icon">
+                            <svg width="50" height="50" class="icon">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
@@ -70,7 +64,7 @@
         
         <section class="hero">
             <div class="conteiner">
-                <div class="hero__navigation">
+                <nav class="hero__navigation">
                     <ul class="list hero__navigation-list">
                         <li class="item hero__navigation-item"> <a class="link" href=""> Косметология</a></li>
                         <li class="item hero__navigation-item"> <a class="link" href="">Пластическая хирургия</a></li>
@@ -79,7 +73,7 @@
                         <li class="item hero__navigation-item"> <a class="link" href=""> Контакты</a></li>
                     </ul>
                     <button class="hero__navigation-btn">Запись на прием</button>
-                </div>
+                </nav>
                 <div class="hero__content">
                     <h1 class="hero__content-title">Косметология</h1>
                     <p class="hero__content-text">Современный мир диктует новые каноны жизни: ухоженное лицо и тело, стройная,
@@ -108,7 +102,6 @@
                     </ul>
                 </div>
             </div>
-            
         </section>         
        
         <section class="courses">
@@ -142,11 +135,11 @@
             <div class="news__conteiner">
                 <button class="news__btn">Новости</button>
                 <ul class="list news__list">
-                    <li class="item news__item">Почему рекомендуется посещать профессионального косметолога. Мнение специалистов
-                        центра</li>
-                    <li class="item news__item">Стандартизация деятельности клиник в соответствии с ISO 9001:2015.</li>
-                    <li class="item news__item">Индивидуальный подход к каждому пациенту и подбор оптимальных косметологических
-                        методик.</li>
+                    <li class="item news__item"><button class="news__item-btn">Почему рекомендуется посещать профессионального косметолога. Мнение специалистов
+                    центра</button></li>
+                    <li class="item news__item"><button class="news__item-btn">Стандартизация деятельности клиник в соответствии с ISO 9001:2015.</button></li>
+                    <li class="item news__item"><button class="news__item-btn">Индивидуальный подход к каждому пациенту и подбор оптимальных косметологических
+                    методик.</button></li>
                 </ul>
             </div>
             <div class="news__conteiner-reason">
@@ -169,13 +162,157 @@
                 </ul>
             </div>
             </div>
-
-
-
         </section>
-        
-
+        <section class="actual">
+            <div class="conteiner">
+                <h1 class="actual__title">Актуальные спецпредложения</h1>
+                <div class="actual__conteiner">
+                    <button class="actual__btn">Косметология</button>
+                    <img class="img actual__img" src="./images/actual/actual-first.jpg" alt="">
+                    <a class="link actual__link" href="">Лазерное и фотоомоложение</a>
+                </div>
+                <div class="actual__conteiner">
+                    <button class="actual__btn">Косметология</button>
+                    <img class="img actual__img" src="./images/actual/actual-second.jpg" alt="">
+                    <a class="link actual__link" href="">Лазерное и фотоомоложение</a>
+                </div>
+                <div class="actual__conteiner">
+                    <button class="actual__btn">Косметология</button>
+                    <img class="img actual__img" src="./images/actual/actual-third.jpg" alt="">
+                    <a class="link actual__link" href="">Лазерное и фотоомоложение</a>
+                </div>
+                <div class="actual__conteiner">
+                    <button class="actual__btn">Косметология</button>
+                    <img class="img actual__img" src="./images/actual/actual-fourth.jpg" alt="">
+                    <a class="link actual__link" href="">Лазерное и фотоомоложение</a>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer__services">
+                <div class="footer__services-conteiner">
+                        <h3 class="footer__services-title">Услуги</h3>
+                        <ul class="list footer__services-list">
+                            <li class="item footer__services-item">Косметология</li>
+                            <li class="item footer__services-item">Пластическая хирургия</li>
+                            <li class="item footer__services-item">Стоматология</li>
+                            <li class="item footer__services-item">Лазерная медицина</li>
+                        </ul>
+                </div>
+                <div class="footer__services-conteiner">
+                    <h3 class="footer__services-title">Услуги</h3>
+                    <ul class="list footer__services-list">
+                        <li class="item footer__services-item">Косметология</li>
+                        <li class="item footer__services-item">Пластическая хирургия</li>
+                        <li class="item footer__services-item">Стоматология</li>
+                        <li class="item footer__services-item">Лазерная медицина</li>
+                    </ul>
+                </div>
+                <div class="footer__services-conteiner">
+                    <h3 class="footer__services-title">Услуги</h3>
+                    <ul class="list footer__services-list">
+                        <li class="item footer__services-item">Косметология</li>
+                        <li class="item footer__services-item">Пластическая хирургия</li>
+                        <li class="item footer__services-item">Стоматология</li>
+                        <li class="item footer__services-item">Лазерная медицина</li>
+                    </ul>
+                </div><div class="footer__services-conteiner">
+                    <h3 class="footer__services-title">Услуги</h3>
+                    <ul class="list footer__services-list">
+                        <li class="item footer__services-item">Косметология</li>
+                        <li class="item footer__services-item">Пластическая хирургия</li>
+                        <li class="item footer__services-item">Стоматология</li>
+                        <li class="item footer__services-item">Лазерная медицина</li>
+                    </ul>
+                </div>
+                <div class="footer__services-conteiner">
+                    <h3 class="footer__services-title">Услуги</h3>
+                    <ul class="list footer__services-list">
+                        <li class="item footer__services-item">Косметология</li>
+                        <li class="item footer__services-item">Пластическая хирургия</li>
+                        <li class="item footer__services-item">Стоматология</li>
+                        <li class="item footer__services-item">Лазерная медицина</li>
+                    </ul>
+                </div>
+                <div class="footer__services-conteiner">
+                    <h3 class="footer__services-title">Услуги</h3>
+                    <ul class="list footer__services-list">
+                        <li class="item footer__services-item">Косметология</li>
+                        <li class="item footer__services-item">Пластическая хирургия</li>
+                        <li class="item footer__services-item">Стоматология</li>
+                        <li class="item footer__services-item">Лазерная медицина</li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="footer__nav">
+                <ul class="list footer__nav-list">
+                    <li class="item footer__nav-item">
+                        <h3 class="footer__nav-title">Телефон</h3>
+                        <a class="link footer__nav-link" href="tel:+78121234567">+7 (812) 123-45-67</a>
+                    </li>
+                    <li class="item footer__nav-item">
+                        <h3 class="footer__nav-title">Адресс</h3>
+                        <p class="footer__nav-address">Невский пр. 140, пом. 10</p>
+                        <a class="link footer__nav-link" href=""></a>
+                    </li>
+                    <li class="item footer__nav-item">
+                        <h3 class="footer__nav-title">Адресс</h3>
+                        <p class="footer__nav-address">Большой пр. 12</p>
+                        <a class="link footer__nav-link" href=""></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__link">
+                <ul class="list footer__link-list">
+                    <li class="item footer__link-item">
+                        <p class="footer__link-protection">(c) 2021. Центр космелогии. Все права защищены.
+                            Наши сертификаты на осуществление деятельности.
+                            Патенты на использование технологий.</p>
+                        <a class="link footer__link-confidentiality" href="">Политика конфиденциальности</a>
+                    </li>
+                    <li class="item footer__link-item">
+                        <a class="link footer__link-version" href="">Версия для слабовидящих</a>
+                    </li>
+                </ul>
+                <ul class="list social-list">
+                    <li class="item social-list__item">
+                        <a class="link social-list--link" href="">
+                            <svg width="50" height="50" class="icon">
+                                <use href="./images/sprite.svg#icon-vk"></use>
+                            </svg>
+                        </a>
+                
+                    </li>
+                    <li class="item social-list__item">
+                        <a class="link social-list--link" href="">
+                            <svg width="50" height="50" class="icon">
+                                <use href="./images/sprite.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                
+                    </li>
+                    <li class="item social-list__item">
+                        <a class="link social-list--link" href="">
+                            <svg width="50" height="50" class="icon">
+                                <use href="./images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                
+                    </li>
+                    <li class="item social-list__item">
+                        <a class="link social-list--link" href="">
+                            <svg width="50" height="50" class="icon">
+                                <use href="./images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="./index.js"></script>
 </body>
 </html>
