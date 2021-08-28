@@ -1,9 +1,12 @@
 .navigation {
   @media screen and (max-width: 767px) {
     display: flex;
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
   }
   @media screen and (min-width: 768px) {
+    padding-bottom: 15px;
   }
   @media screen and (min-width: 1295px) {
     display: flex;
