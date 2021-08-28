@@ -1,0 +1,57 @@
+.modal-btn {
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    position: relative;
+    z-index: 112;
+    width: 40px;
+    height: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.modal-btn {
+  .icon-close {
+    display: none;
+  }
+}
+.modal-btn.is-open {
+  .icon-menu {
+    display: none;
+  }
+}
+
+.modal-btn.is-open .icon-close {
+  display: block;
+  position: absolute;
+  z-index: 111;
+}
+.modal-btn:hover .icon-close,
+.modal-btn:focus .icon-close {
+  fill: var(--first-accent-color);
+}
+.modal-btn:hover .icon-menu,
+.modal-btn:focus .icon-menu {
+  fill: var(--first-accent-color);
+}
+
+.data-menu {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.data-menu.is-open {
+  @media screen and (max-width: 767px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--light-text-color);
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

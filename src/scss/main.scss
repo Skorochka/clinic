@@ -5,5 +5,8 @@
 // ипорт стилей для отдельных секций
 @import './layouts/header';
 
+// импорт компонентов
+@import './components/social-list';
+@import './components/modal';
 // подключает root
-@import './utils/variables'
+@import './utils/variables';

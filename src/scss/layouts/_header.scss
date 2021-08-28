@@ -1,36 +1,22 @@
 .navigation {
-  display: flex;
-  align-items: center;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    padding-top: 30px;
+  }
 }
 
-.navigation__list {
-  display: flex;
-  align-items: center;
+.navigation-list {
+  @media screen and (max-width: 767px) {
+  }
 }
+
 .navigation__item {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-
-  margin-right: 30px;
-  margin-left: 30px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+    padding-left: 30px;
+  }
 }
 
-.navigation__item .link {
-  display: block;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-
-.navigation__logo {
-  padding-right: 35px;
-  padding-left: 35px;
-}
-.navigation .logo-img {
-  width: 189px;
-  height: 55px;
-}
 .link-version__text {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -42,13 +28,50 @@
   background-color: var(--first-accent-color);
 }
 
-//нужно перенести в другой файл - общие соц иконки
+// .navigation {
+//   @media screen and (min-width: 768px) {
+//     display: flex;
+//     align-items: center;
+//   }
+// }
 
-.social-list {
-  display: flex;
-  margin-left: auto;
-}
-.social-list__item {
-  margin-right: 28px;
-  margin-left: 28px;
-}
+// .navigation__list {
+//   display: flex;
+//   align-items: center;
+// }
+// .navigation__item {
+//   font-family: var(--main-font);
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 1.19;
+
+//   margin-right: 30px;
+//   margin-left: 30px;
+// }
+
+// .navigation__item .link {
+//   display: block;
+//   padding-top: 35px;
+//   padding-bottom: 35px;
+// }
+
+// .navigation__logo {
+//   padding-right: 35px;
+//   padding-left: 35px;
+// }
+// .navigation .logo-img {
+//   width: 189px;
+//   height: 55px;
+// }
+// .link-version__text {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   text-transform: uppercase;
+//   color: var(--light-text-color);
+//   background-color: var(--first-accent-color);
+// }
+
+//нужно перенести в другой файл - общие соц иконки

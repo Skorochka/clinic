@@ -1,0 +1,12 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  @media screen and (min-width: 1295px) {
+    margin-left: auto;
+  }
+}
+.social-list__item {
+  margin-right: 28px;
+  margin-left: 28px;
+}
