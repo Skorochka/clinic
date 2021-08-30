@@ -33,6 +33,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 40px;
   }
@@ -53,49 +54,38 @@
     margin-bottom: 30px;
     padding-left: 30px;
   }
-  @media screen and (min-width: 768px) {
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
-  }
-  @media screen and (min-width: 1295px) {
-    margin-left: 30px;
 
-    & .link {
-      display: block;
-    }
-  }
   & .link {
-    background-color: var(--first-accent-color);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  & .link-arrow {
+    display: flex;
+    & .text {
+      margin-right: 10px;
+    }
   }
 }
 
-.link-version__text {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--light-text-color);
-  background-color: var(--first-accent-color);
+.link-version {
+  & .link {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--light-text-color);
+    background-color: var(--first-accent-color);
+    display: flex;
+    align-items: center;
+
+    & .icon {
+      margin-right: 10px;
+    }
+  }
 }
-
-// .link-version__text::before {
-//   content: '';
-//   background-image: url(../images/sprite.svg#icon-eye);
-//   width: 30px;
-//   height: 30px;
-//   fill: red;
-//   background-color: salmon;
-// }
-
-// .navigation__item {
-//   & .icon {
-//     background-color: cyan;
-//     fill: red;
-//   }
-// }
 
 .logo {
   @media screen and (min-width: 1295px) {
