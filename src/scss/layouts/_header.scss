@@ -78,6 +78,22 @@
   background-color: var(--first-accent-color);
 }
 
+// .link-version__text::before {
+//   content: '';
+//   background-image: url(../images/sprite.svg#icon-eye);
+//   width: 30px;
+//   height: 30px;
+//   fill: red;
+//   background-color: salmon;
+// }
+
+// .navigation__item {
+//   & .icon {
+//     background-color: cyan;
+//     fill: red;
+//   }
+// }
+
 .logo {
   @media screen and (min-width: 1295px) {
     padding-right: 35px;

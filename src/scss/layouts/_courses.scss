@@ -1,0 +1,35 @@
+.courses__innovation {
+  background-color: var(--first-accent-color);
+  @media screen and (max-width: 767px) {
+    padding-top: 35px;
+  }
+}
+.courses__innovation-conteiner {
+  @media screen and (max-width: 767px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.courses__innovation-btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--light-text-color);
+  background-color: var(--second-accent-color);
+  border: 1px solid var(--light-text-color);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.courses__innovation-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  color: var(--light-text-color);
+  @media screen and (max-width: 767px) {
+    margin-top: 20px;
+  }
+}

@@ -5,9 +5,12 @@
 // ипорт стилей для отдельных секций
 @import './layouts/header';
 @import './layouts/hero';
+@import './layouts/courses';
 
 // импорт компонентов
 @import './components/social-list';
 @import './components/modal';
 // подключает root
 @import './utils/variables';
+
+@import './layouts/slider';
