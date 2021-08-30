@@ -24,17 +24,13 @@
   @media screen and (max-width: 767px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-    & .hero__navigation-item {
-      padding-top: 15px;
-    }
   }
   @media screen and (min-width: 768px) {
     display: flex;
     font-size: 15px;
     justify-content: space-between;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   @media screen and (min-width: 1295px) {
     padding-left: 30px;
@@ -181,18 +177,22 @@
   font-size: 21px;
   line-height: 150%;
   background-color: var(--first-accent-color);
+
   color: var(--light-text-color);
   padding-top: 15px;
   padding-bottom: 15px;
   @media screen and (max-width: 767px) {
     font-size: 15px;
-
-    padding-right: 9px;
-    padding-left: 10px;
+    padding-right: 14px;
+    padding-left: 15px;
   }
   @media screen and (min-width: 768px) {
     font-size: 15px;
-    padding-right: 57px;
-    padding-left: 58px;
+    padding-right: 63px;
+    padding-left: 62px;
+  }
+  @media screen and (min-width: 1295px) {
+    padding-right: 150px;
+    padding-left: 150px;
   }
 }
