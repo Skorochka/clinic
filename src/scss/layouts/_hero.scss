@@ -82,6 +82,11 @@
   }
 }
 .hero__content-conteiner {
+  @media screen and (max-width: 767px) {
+    & .peculiar {
+      font-size: 40px;
+    }
+  }
   @media screen and (min-width: 1295px) {
     margin-right: 110px;
     margin-top: 150px;
@@ -94,6 +99,7 @@
   line-height: 150%;
   color: var(--light-text-color);
   margin-bottom: 20px;
+
   @media screen and (min-width: 768px) {
     font-size: 35px;
   }
