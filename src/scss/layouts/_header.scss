@@ -65,6 +65,9 @@
       display: block;
     }
   }
+  & .link {
+    background-color: var(--first-accent-color);
+  }
 }
 
 .link-version__text {
