@@ -6,11 +6,12 @@
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/courses';
+@import './layouts/news';
 
 // импорт компонентов
 @import './components/social-list';
 @import './components/modal';
+@import './components/slider';
+
 // подключает root
 @import './utils/variables';
-
-@import './layouts/slider';
