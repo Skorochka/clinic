@@ -18,9 +18,11 @@
   @media screen and (min-width: 768px) {
     padding-top: 35px;
     max-width: 400px;
+    min-width: 400px;
   }
   @media screen and (min-width: 1295px) {
     max-width: 526px;
+    min-width: 526px;
   }
 }
 .courses__innovation-conteiner {
@@ -168,4 +170,25 @@
   & .courses__patent-img {
     margin-left: auto;
   }
+}
+
+//////////////////////////
+
+.procedures.is-open {
+  display: block;
+}
+.procedures.close {
+  display: none;
+}
+.education.is-open {
+  display: block;
+}
+.education.close {
+  display: none;
+}
+.vip.is-open {
+  display: block;
+}
+.vip.close {
+  display: none;
 }

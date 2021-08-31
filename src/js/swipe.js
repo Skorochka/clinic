@@ -11,9 +11,7 @@ btnLeft.addEventListener('click', onBtnLeftClick)
 
 
 width = document.querySelector('.slider').offsetWidth;
-console.log(width)
  
-
 
 function onBtnRightClick() {
    

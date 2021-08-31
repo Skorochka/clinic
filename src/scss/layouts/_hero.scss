@@ -54,6 +54,7 @@
   padding-left: 15px;
   display: block;
   margin-left: auto;
+  background-color: var(--light-text-color);
 
   &:hover {
     background-color: var(--first-accent-color);
@@ -195,4 +196,8 @@
     padding-right: 150px;
     padding-left: 150px;
   }
+}
+
+.hero__direction-btn.active {
+  background-color: var(--second-accent-color);
 }
