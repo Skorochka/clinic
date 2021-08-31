@@ -1,3 +1,15 @@
+.courses {
+  @media screen and (max-width: 767px) {
+    padding-top: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 50px;
+  }
+  @media screen and (min-width: 1295px) {
+    padding-top: 80px;
+  }
+}
+
 .courses__innovation {
   background-color: var(--first-accent-color);
   @media screen and (max-width: 767px) {
@@ -73,10 +85,7 @@
 .courses__patent-conteiner {
   @media screen and (min-width: 768px) {
     margin-left: 30px;
-    padding-top: 20px;
-  }
-  @media screen and (min-width: 1295px) and (max-width: 1294px) {
-    display: flex;
+    padding-top: 35px;
   }
   @media screen and (min-width: 1295px) {
     margin-left: 134px;
