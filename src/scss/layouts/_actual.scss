@@ -1,0 +1,57 @@
+.actual {
+  background-color: var(--blurry-text-color);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.actual__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 150%;
+  color: var(--first-accent-color);
+  text-align: center;
+  @media screen and (max-width: 767px) {
+    font-size: 38px;
+  }
+}
+
+.actual__conteiner {
+  background-color: var(--first-accent-color);
+}
+
+.actual__btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--light-text-color);
+  background-color: var(--second-accent-color);
+  border: none;
+  padding: 9px 15px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.actual__link {
+  display: flex;
+  padding: 25px 30px;
+  align-items: center;
+  & .text {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 150%;
+    color: var(--light-text-color);
+    margin-right: 15px;
+  }
+
+  & .icon {
+    border: 1px solid var(--light-text-color);
+    padding: 10px 15px;
+  }
+}
+
+.arrow-left,
+.arrow-right {
+  background-color: var(--second-accent-color);
+  margin-top: 20px;
+}

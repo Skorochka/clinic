@@ -1,4 +1,4 @@
-.slider {
+.hero__slider-content {
   @media screen and (max-width: 767px) {
     width: 480px;
   }
@@ -10,7 +10,7 @@
   }
   overflow: hidden;
 }
-.slider-line {
+.hero__slider-line {
   display: flex;
   position: relative;
   left: 0;
