@@ -87,6 +87,13 @@
   background-color: var(--first-accent-color);
   padding: 15px 25px;
   margin-top: 15px;
+  transition: background-color var(--animation) var(--cubic);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-color);
+    color: var(--first-accent-color);
+  }
 }
 
 .footer__link {

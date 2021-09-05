@@ -61,12 +61,18 @@
   align-items: center;
   margin-top: 25px;
   margin-bottom: 45px;
+
   & .icon {
     padding-top: 13px;
     padding-bottom: 13px;
     padding-right: 15px;
     padding-left: 15px;
     border: 1px solid var(--light-text-color);
+    transition: background-color var(--animation) var(--cubic);
+  }
+  &:hover .icon,
+  &:focus .icon {
+    background-color: var(--second-accent-color);
   }
   & .text {
     font-weight: bold;
@@ -76,6 +82,12 @@
     text-transform: uppercase;
     color: var(--light-text-color);
     margin-left: 20px;
+    transition: color var(--animation) var(--cubic);
+  }
+
+  &:hover .text,
+  &:focus .text {
+    color: var(--second-accent-color);
   }
 }
 .conteiner__courses {

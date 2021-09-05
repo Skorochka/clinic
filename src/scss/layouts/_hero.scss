@@ -14,13 +14,13 @@
   line-height: 150%;
   & .link {
     color: var(--light-text-color);
+    transition: color var(--animation) var(--cubic);
   }
-  & .link:hover {
-    color: var(--first-accent-color);
-  }
+  & .link:hover,
   & .link:focus {
-    color: var(--first-accent-color);
+    color: var(--hover-color);
   }
+
   @media screen and (max-width: 767px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -43,6 +43,7 @@
     }
   }
 }
+
 .hero__navigation-btn {
   font-weight: 500;
   font-size: 18px;
@@ -55,12 +56,13 @@
   display: block;
   margin-left: auto;
   background-color: var(--light-text-color);
+  transition: color var(--animation) var(--cubic);
+  transition: background-color var(--animation) var(--cubic);
 
-  &:hover {
-    background-color: var(--first-accent-color);
-  }
+  &:hover,
   &:focus {
     background-color: var(--first-accent-color);
+    color: var(--hover-color);
   }
 
   @media screen and (max-width: 1294px) {
@@ -132,6 +134,11 @@
   line-height: 21px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  transition: color var(--animation) var(--cubic);
+}
+.hero__content-btn:hover,
+.hero__content-btn:focus {
+  color: var(--hover-color);
 }
 
 .hero__content-buttons {
@@ -149,6 +156,11 @@
     padding-right: 10px;
     background-color: var(--second-accent-color);
     border: 1px solid var(--light-text-color);
+    transition: background-color var(--animation) var(--cubic);
+  }
+  & .button:hover,
+  & .button:focus {
+    background-color: var(--first-accent-color);
   }
 }
 
@@ -200,4 +212,8 @@
 
 .hero__direction-btn.active {
   background-color: var(--second-accent-color);
+}
+.hero__direction-btn:hover,
+.hero__direction-btn:focus {
+  color: var(--hover-color);
 }

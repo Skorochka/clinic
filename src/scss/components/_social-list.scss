@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
 }
-.social-list__item {
+.social-list__link {
+  display: block;
   padding: 25px 28px;
 
   @media screen and (max-width: 767px) {

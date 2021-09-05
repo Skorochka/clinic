@@ -55,17 +55,15 @@
   font-size: 16px;
   line-height: 1.19;
 
-  @media screen and (max-width: 767px) {
-    margin-bottom: 30px;
-    padding: 0;
-    & .link-arrow {
-      justify-content: center;
-    }
-  }
-
   & .link {
     padding-left: 30px;
     padding-right: 30px;
+    transition: color var(--animation) var(--cubic);
+  }
+
+  & .link:hover,
+  & .link:focus {
+    color: var(--first-accent-color);
   }
 
   & .link-arrow {
@@ -73,6 +71,13 @@
 
     & .text {
       margin-right: 10px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+    padding: 0;
+    & .link-arrow {
+      justify-content: center;
     }
   }
   @media screen and (min-width: 1295px) {
@@ -100,10 +105,21 @@
     max-width: 280px;
     margin-left: auto;
     margin-right: auto;
+    transition: background-color var(--animation) var(--cubic);
+
     & .icon {
       margin-right: 10px;
     }
   }
+  & .link:focus,
+  & .link:hover {
+    background-color: var(--hover-color);
+    color: var(--first-accent-color);
+    path {
+      fill: var(--first-accent-color);
+    }
+  }
+
   @media screen and (min-width: 1295px) {
     padding-top: 15px;
     padding-left: 24px;

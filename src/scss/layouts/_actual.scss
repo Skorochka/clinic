@@ -54,4 +54,10 @@
 .arrow-right {
   background-color: var(--second-accent-color);
   margin-top: 20px;
+  transition: background-color var(--animation) var(--cubic);
+
+  &:hover,
+  &:focus {
+    background-color: var(--first-accent-color);
+  }
 }
